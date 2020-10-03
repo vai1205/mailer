@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
 }) 
 
 exports.contactForm = (req, res) => {
-    const {name,email,phone} = req.body;
+    const {name,email,phone} = req.query;
     const emailData = {
         from: process.env.EMAIL_ADDRESS, 
         to: process.env.EMAIL_TO,  
