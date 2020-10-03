@@ -7,6 +7,10 @@
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
   "author": "Vaibhav Srivastava",
   "license": "ISC",
   "dependencies": {
