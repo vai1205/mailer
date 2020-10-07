@@ -34,13 +34,13 @@ exports.contactForm = (req, res) => {
         from: process.env.EMAIL_ADDRESS, 
         to: email,
         subject: `Registration Successful : ${process.env.APP_NAME}`,
-        text:`Congratulations! Your are successfully registered for ECHO-DELHI MIDTERM Virtual 2020. Please mark the webinar details: Sunday, October 11th, 2020 3:00pm-9.00 pm`,
+        text:`Congratulations! Your are successfully registered for ECHO-DELHI 2020 MIDTERM : DIGITAL EXPERIENCE. Please mark the webinar details: Sunday, October 11th, 2020 3:00pm-9.00 pm`,
         html:
             `
-                <h1><mark>ECHO-DELHI MIDTERM Virtual 2020</mark></h1>
+                <h1><mark>ECHO-DELHI 2020 MIDTERM : DIGITAL EXPERIENCE</mark></h1>
                 <p><b>Hello ${name},</b></p>
                 <p>Congratulations!</p>
-                <p>You are successfully registered for ECHO-DELHI MIDTERM Virtual 2020.</p>
+                <p>You are successfully registered for ECHO-DELHI 2020 MIDTERM : DIGITAL EXPERIENCE.</p>
                 <p>Please save the following event details</p>
                 <p>Date: Sunday, October 11th, 2020</p>
                 <p>Time: 3:00pm - 9:00 pm</p>
